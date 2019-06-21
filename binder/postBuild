@@ -1,12 +1,12 @@
 
 # creating ssh-related folders
-mkdir .ssh/etc/ssh -p
+#mkdir .ssh/etc/ssh -p
 
 
 # setup passphraseless ssh (forcing the adding to know hosts)
-ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa  &&   cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys && chmod 0600 ~/.ssh/authorized_keys 
+#ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa  &&   cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys && chmod 0600 ~/.ssh/authorized_keys 
 
 # generating keys for sshd server
-ssh-keygen -A -f .ssh 
-chmod 600 .ssh/etc/ssh/* -R
+#ssh-keygen -A -f .ssh 
+#chmod 600 .ssh/etc/ssh/* -R
 
