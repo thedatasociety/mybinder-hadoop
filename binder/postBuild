@@ -1,6 +1,6 @@
 
-# creating ssh folder
-mkdir .ssh
+# creating ssh folders
+mkdir .ssh && .ssh/etc && .ssh/etc/ssh
 
 
 # setup passphraseless ssh (forcing the adding to know hosts)
