@@ -7,4 +7,6 @@ mkdir .ssh && .ssh/etc && .ssh/etc/ssh
 ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa  &&   cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys && chmod 0600 ~/.ssh/authorized_keys 
 
 # generating keys for sshd server
-ssh-keygen -A -f .ssh && chmod 600 .ssh/etc/ssh/* -R
+ssh-keygen -A -f .ssh 
+chmod 600 .ssh/etc/ssh/* -R
+
