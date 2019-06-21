@@ -1,0 +1,3 @@
+#just for avoiding conda
+jupyterlab
+jupyter
