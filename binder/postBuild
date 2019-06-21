@@ -10,3 +10,5 @@ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa  &&   cat ~/.ssh/id_rsa.pub >> ~/.ssh/a
 ssh-keygen -A -f .ssh 
 chmod 600 .ssh/etc/ssh/* -R
 
+# set env var for java
+echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 " > .bashrc
