@@ -1,4 +1,3 @@
-UsePrivilegeSeparation no
 HostKey /home/jovyan/.ssh/etc/ssh_host_rsa_key
 HostKey /home/jovyan/.ssh/etc/ssh/ssh_host_ecdsa_key
 HostKey /home/jovyan/.ssh/etc/ssh_host_ed25519_key
